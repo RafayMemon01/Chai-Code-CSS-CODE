@@ -1,0 +1,42 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming_soon_content{
+    text-align: center;
+    max-width: 400px;
+    background-color: #FEFEFE;
+    border-radius: 1em;
+    padding: 1em;
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    h1{
+        color: #333333;
+    }
+    p{
+        color: #666;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+
+
+        input[type="email"]{
+           background-color: #dedede; 
+           
+        }
+    }
+}
+

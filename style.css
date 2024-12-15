@@ -40,7 +40,12 @@ header{
         }
     }
 }
-
+.logo img{
+    width: 50px;
+    object-fit: contain;
+    border-radius: 1em;
+    height: 50px;
+}
 .dropdown:hover .dropdown-content{
     /* position: relative; */
     display: flex;
