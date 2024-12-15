@@ -1,0 +1,17 @@
+.active{
+    transform: scale(1.2);
+    border-bottom: 1px solid #003465;
+}
+
+.text-secondary{
+    color: #003465 !important;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.h-full-vh{
+    height: 100vh;
+}
